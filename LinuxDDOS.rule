@@ -1,4 +1,4 @@
-rule LinuxDDOS
+rule LinuxDDOS : linux DDOS
 {
     strings:
         $a = "sed -i -e '/%s/d' /etc/rc.local"

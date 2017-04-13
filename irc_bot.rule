@@ -1,4 +1,4 @@
-rule IRCBot
+rule IRCBot : irc perl
 {
     strings:
         $a = "DDoS Perl IrcBot v1.0 / 2013 By vK"
