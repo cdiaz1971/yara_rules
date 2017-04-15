@@ -2,8 +2,7 @@ rule trojan_downloader : linux trojan dowloader
 {
     meta:
 	author = "Cesar Diaz <cesar@cesardiaz.me>"
-	description = "xxxxxxxxxx"
-	hash = "e6b2d0410ffb2368b6412cab4bbdefd0"
+	description = "files downloaded as tfpt1.sh and tftp2.sh Rule matches both"
 
     strings:
         $a = "cat bash >badbox;chmod +x *;./badbox"
@@ -14,4 +13,3 @@ rule trojan_downloader : linux trojan dowloader
 	        all of them
 
 }
-
