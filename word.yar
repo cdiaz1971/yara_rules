@@ -6,10 +6,10 @@ rule microsoft_word
 
     strings:
         $a = "Microsoft Office Word"
-	
+        $b = "word/document.xml"	
     
 	condition:
-	        all of them
+	        $a or $b
 
 }
 rule VARMUS
