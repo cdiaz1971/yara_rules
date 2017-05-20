@@ -1,4 +1,4 @@
-rule ms15-10 : windows
+rule ms15_10 : windows
 {
 meta:
 	author = "Cesar Diaz"
