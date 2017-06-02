@@ -12,14 +12,3 @@ rule microsoft_word
 	        $a or $b
 
 }
-rule VARMUS
-{
-	meta:
-	    author = "Cesar Diaz"
-
-	strings:
-	    $a = "VARMUS"
-
-	condition:
-		$a and microsoft_word
-}
